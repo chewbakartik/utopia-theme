@@ -155,7 +155,7 @@ body {
 }
 
 a {
-    color: #45ACF6;
+    color: #A2D6FA;
     text-decoration: none;
 }
 
@@ -360,7 +360,7 @@ h3 {
 
 #game-navigation .current-date {
     margin-top: 5px;
-    padding: 15px 0px;
+    padding: 5px 0px;
     font-size: 13px;
 
     /* border styling */
@@ -371,7 +371,7 @@ h3 {
 
     border-color: #103041;
 
-    background: #222526;
+    background: #4E5151;
 }
 
 #game-navigation a {
@@ -448,7 +448,7 @@ h3 {
 
 .game-content h2 {
     /* colors */
-    background-color: #000040;
+    background-color: #415664;
 }
 
 .game-content h3 {
@@ -824,7 +824,7 @@ td.news-province-modification {
 }
 
 .game-content tbody th {
-    color: silver;
+    color: #EDF6FF;
 }
 
 .game-content tbody th:first-child {
