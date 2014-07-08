@@ -14,9 +14,9 @@ FOLLOW THIS FORMAT:
 */
 
 body {
-    color: #141823;
+    color: #FFFFFE;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background-color: #e9eaed;
+    background-color: #708090;
 }
 
 #header-logo {
@@ -43,12 +43,11 @@ body {
 
     /* colors */
     border-color: #103041;
-    background-color: #fff;
 }
 
 .navigation a {
     text-decoration: none;
-    color: #141823;
+    color: #fff;
 }
 
 .navigation a:hover  {
@@ -154,7 +153,7 @@ body {
 }
 
 a {
-    color: #213359;
+    color: #D6EBFF;
     text-decoration: none;
 }
 
@@ -245,7 +244,7 @@ h3 {
     color: #FFF;
 }
 .lobby-panel h1 a {
-    color: #141823;
+    color: #FFFFFF;
 }
 
 .lobby-panel h1 a:hover {
@@ -368,10 +367,9 @@ h3 {
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
 
-    border-color: #FFF;
-    color: #FFF;
+    border-color: #103041;
 
-    background: #4D6FB8;
+    background: #4E5151;
 }
 
 #game-navigation a {
@@ -379,7 +377,7 @@ h3 {
 }
 
 #game-navigation a:hover {
-    box-shadow: -10px 0px 6px -6px #141823;
+    box-shadow: -10px 0px 6px -6px #fff;
 }
 
 #resource-bar
@@ -392,7 +390,6 @@ h3 {
     padding: 1px 1px 1px 1px;
 
     /* colors */
-    border-color: #000;
 }
 
 #resource-bar thead {
@@ -444,26 +441,17 @@ h3 {
     /* internal styling - padding etc. */
 
     /* colors */
-    color: #141823;
     color: #fff;
-}
-
-.game-content h2 a {
-    /* internal styling - padding etc. */
-
-    /* colors */
-    color: #141823;
-    color: silver;
 }
 
 .game-content h2 {
     /* colors */
-    background-color: #3b5998;
+    background-color: #415664;
 }
 
 .game-content h3 {
     font-size: 20px;
-    color: #141823;
+    color: #fff;
 }
 
 .game-content form {
@@ -622,8 +610,8 @@ div.uploader span.action {
 }
 .game-content form tbody tr:nth-child(even) {
     /* display, opacity and special effects*/
-    background: rgb(113, 152, 235);
-    background: rgba(113, 152, 235, 0.6);
+    background: rgb(48, 48, 48);
+    background: rgba(48, 48, 48, 0.6);
 }
 
 /* KINGDOM NEWS */
@@ -766,27 +754,30 @@ td.news-province-modification {
 
 .game-header
 {
+    height: 25px;
 }
 
 .game-header h1
 {
     height: 20px;
-    margin: 0px 1px;
-    padding: 3px 3px 1px 6px;
+    margin: 0px 2px;
+    padding: 6px 6px 1px 6px;
 
     font-size: 14px;
     text-decoration: none;
 
-    border: 1px solid;
-    border-color: #000;
-    background: #92A7D4; /* Old browsers */
+    -moz-box-shadow: -1px -1px 1px 1px #788183;
+    -webkit-box-shadow: -1px -1px 1px 1px #788183;
+    box-shadow: -1px -1px 1px 1px #788183;
 
-    color: #141823;
+    background: #3B4041; /* Old browsers */
+
+    color: #fff;
 }
 
 .game-header a h1 {
     color: silver;
-    background: #5E6F91; /* Old browsers */
+    background: #222526; /* Old browsers */
 }
 
 .game-header a:hover {
@@ -797,14 +788,20 @@ td.news-province-modification {
 {
     background: #3B4041; /* Old browsers */
 
-    color: white;
+    color: #fff;
 
+    -moz-box-shadow: -1px -1px 1px 1px #B5B9BA;
+    -webkit-box-shadow: -1px -1px 1px 1px #B5B9BA;
+    box-shadow: -1px -1px 1px 1px #B5B9BA;
 }
 
 .game-content {
-    border: 0px solid;
+    border: 2px solid;
 
     /* border styling */
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
 
     /* colors */
     border-color: #3B4041;
@@ -820,12 +817,12 @@ td.news-province-modification {
 .game-content thead th {
     font-weight: normal;
     font-size: 12px;
-    color : #141823;
+    color : #fff;
     background-color: #000040;
 }
 
 .game-content tbody th {
-    color: #141823; 
+    color: #FFFCF7; 
     
     
 }
@@ -847,8 +844,8 @@ td.news-province-modification {
 
 .game-content tbody tr:nth-child(even) {
     /* display, opacity and special effects*/
-    background: rgb(113, 152, 235);
-    background: rgba(113, 152, 235, 0.6);
+    background: rgb(48, 48, 48);
+    background: rgba(48, 48, 48, 0.6);
 }
 
 .game-content tbody tr.sub-total {
