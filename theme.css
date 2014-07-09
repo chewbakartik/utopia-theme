@@ -1,3 +1,4 @@
+
 /*
 FOLLOW THIS FORMAT:
 
@@ -11,6 +12,8 @@ FOLLOW THIS FORMAT:
     - display, opacity and special effects
 }
 */
+
+
 
 body {
     color: #FFFFFE;
@@ -243,7 +246,7 @@ h3 {
     color: #FFF;
 }
 .lobby-panel h1 a {
-    color: #FFFFFF;
+    color: #0361CC;
 }
 
 .lobby-panel h1 a:hover {
@@ -821,9 +824,7 @@ td.news-province-modification {
 }
 
 .game-content tbody th {
-    color: #FFFCF7; 
-    
-    
+    color: #EDF6FF;
 }
 
 .game-content tbody th:first-child {
