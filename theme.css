@@ -12,8 +12,6 @@ FOLLOW THIS FORMAT:
 }
 */
 
-
-
 body {
     color: #FFFFFE;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
@@ -154,7 +152,7 @@ body {
 }
 
 a {
-    color: #A2D6FA;
+    color: #D6EBFF;
     text-decoration: none;
 }
 
@@ -242,10 +240,10 @@ h3 {
 .lobby-panel h1 {
     font-size: 25px;
     line-height: 25px;
-    color: #0361CC;
+    color: #FFF;
 }
 .lobby-panel h1 a {
-    color: #0361CC;
+    color: #FFFFFF;
 }
 
 .lobby-panel h1 a:hover {
@@ -468,7 +466,7 @@ form ul.errorlist {
     /* typography */
     font-size: 14px;
 
-    background-color: #400000;
+    background-color: #4A6070;
 }
 
 .game-content form.change-kingdom .change-kingdom-heading {
@@ -823,7 +821,9 @@ td.news-province-modification {
 }
 
 .game-content tbody th {
-    color: #EDF6FF;
+    color: #FFFCF7; 
+    
+    
 }
 
 .game-content tbody th:first-child {
