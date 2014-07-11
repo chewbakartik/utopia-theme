@@ -404,7 +404,7 @@ h3 {
 
     font-weight: normal;
     
-    font-size: 12px;
+    font-size: 10px;
 	text-transform: uppercase;
     color: #000;
 }
@@ -770,7 +770,7 @@ td.news-province-modification {
     padding: 6px 6px 1px 6px;
 
     
-    font-size: 12px;
+    font-size: 10px;
 	text-transform: uppercase;
 
     -moz-box-shadow: -1px -1px 1px 1px #788183;
@@ -830,7 +830,7 @@ td.news-province-modification {
 
 .game-content tbody th {
     color: #EDF6FF;
-    font-size: 12px;
+    font-size: 10px;
 	text-transform: uppercase;
 }
 
