@@ -159,6 +159,11 @@ a {
     text-decoration: none;
 }
 
+td.province-name 	a {
+    color: #F7DE94;
+    text-decoration: none;
+}
+
 a.highlighted {
     color: #E68910;
 }
